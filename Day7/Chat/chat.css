@@ -1,0 +1,65 @@
+.message-container {
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 10px;
+  }
+  
+  .message {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .message:last-child {
+    margin-bottom: 0;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .input-container button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Custom scrollbar for message container */
+  .message-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .message-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  .message-container::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+  }
