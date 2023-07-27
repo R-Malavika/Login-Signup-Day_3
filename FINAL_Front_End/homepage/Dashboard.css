@@ -1,0 +1,137 @@
+/* General styles */
+.feed {
+    font-family: Arial, sans-serif;
+
+    background-image: url("https://greenworkforce.in/wp-content/uploads/2018/08/dark-office-background.jpg");
+    background-size: cover;
+    background-position: center;
+    
+
+  }
+  
+  .myse {
+    padding-top: 15px;
+    margin-bottom:80px;
+    color: rgb(221, 211, 211);
+    text-align: center;
+    margin-left: 50px;
+    
+  }
+  .headas
+  {
+    margin-bottom:20px;
+    color: rgb(221, 211, 211);
+    text-align: left;
+    margin-left: 10px;
+  }
+  .in{
+    padding: 15px;
+    padding-right: 150px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+  
+  .logg {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .logsign:hover {
+    background-color: hotpink;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: purple;
+    color: white;
+  }
+  
+  /* Styles for the component */
+  .FeesManagement {
+    margin: 20px;
+  }
+  
+  .FeesManagement input[type="text"] {
+    width: 200px;
+  }
+  
+  .FeesManagement button {
+    margin-left: 10px;
+  }
+  
+  .FeesManagement table {
+    margin-top: 20px;
+  }
+  
+  .FeesManagement th,
+  .FeesManagement td {
+    text-align: left;
+  }
+  .lo{
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.lo1{
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.lo:hover {
+    background-color: lime;
+  }
+  .lo1:hover {
+    background-color: rgb(253, 153, 117);
+  }
+.feel{
+    width: 400px;
+    padding-left: 100px;
+}
+.ter{
+    color: aliceblue;
+}
+.logsign{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: mediumvioletred;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}

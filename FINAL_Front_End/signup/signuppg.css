@@ -1,0 +1,57 @@
+.sup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      ),
+      url("https://snacknation.com/wp-content/uploads/2020/12/Best-Task-Management-Software-Platforms.png");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .form-sgup{
+      background-color: white;
+      padding: 0px 60px;
+      border-radius: 10px;
+      border: 3px solid black;
+  }
+  
+  .sh{
+      color: black;
+      text-align: center;
+  }
+  
+  .gogo{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+.in{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.in:invalid[focused="true"]{
+    border: 1px solid red;
+}
+.in:invalid[focused="true"] ~ .span{
+    display: block;
+}
+  .logsign{
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      background-color: mediumvioletred;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 30px;
+  }
